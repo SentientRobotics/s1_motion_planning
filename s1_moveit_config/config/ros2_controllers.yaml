@@ -1,0 +1,48 @@
+# This config file is used by ros2_control
+controller_manager:
+  ros__parameters:
+    update_rate: 100  # Hz
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+      
+    arm_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+
+
+    hand_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+
+
+
+arm_controller:
+  ros__parameters:
+    joints:
+      - Linear_Joint
+      - joint1
+      - joint2
+      - joint3
+      - joint4
+      - joint5
+      - joint6
+    command_interfaces:
+      - position
+    state_interfaces:
+      - position
+      - velocity
+
+hand_controller:
+  ros__parameters:
+    joints:
+      - right_index_1_joint
+      - right_little_1_joint
+      - right_middle_1_joint
+      - right_ring_1_joint
+      - right_thumb_1_joint
+      - right_thumb_2_joint
+    command_interfaces:
+      - position
+    state_interfaces:
+      - position
+      - velocity
+

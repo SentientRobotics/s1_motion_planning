@@ -1,0 +1,43 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/nir/Desktop/Sentient_S1/install/zed_components/include/**",
+        "/home/nir/Desktop/Sentient_S1/install/zed_interfaces/include/**",
+        "/home/nir/Desktop/Sentient_S1/install/xarm_controller/include/**",
+        "/home/nir/Desktop/Sentient_S1/install/xarm_api/include/**",
+        "/home/nir/Desktop/Sentient_S1/install/xarm_msgs/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/nir/code/zed/install/zed_components/include/**",
+        "/home/nir/code/zed/install/zed_interfaces/include/**",
+        "/home/nir/Desktop/Sentient_S1/src/api_sdk/xarm_api/include/**",
+        "/home/nir/Desktop/Sentient_S1/src/behavior/include/**",
+        "/home/nir/Desktop/Sentient_S1/src/bringup/include/**",
+        "/home/nir/Desktop/Sentient_S1/src/configuration/include/**",
+        "/home/nir/Desktop/Sentient_S1/src/control/sentient_s1_controller/include/**",
+        "/home/nir/Desktop/Sentient_S1/src/data_management/include/**",
+        "/home/nir/Desktop/Sentient_S1/src/hardware_interface/Sensors/imu/bno085/include/**",
+        "/home/nir/Desktop/Sentient_S1/src/hardware_interface/Sensors/lidar/ldlidar_ros2/include/**",
+        "/home/nir/Desktop/Sentient_S1/src/hardware_interface/robotic_arms/xarm_controller/include/**",
+        "/home/nir/Desktop/Sentient_S1/src/localization/include/**",
+        "/home/nir/Desktop/Sentient_S1/src/navigation/include/**",
+        "/home/nir/Desktop/Sentient_S1/src/perception/include/**",
+        "/home/nir/Desktop/Sentient_S1/src/planning/include/**",
+        "/home/nir/Desktop/Sentient_S1/src/robot_description/include/**",
+        "/home/nir/Desktop/Sentient_S1/src/safety/include/**",
+        "/home/nir/Desktop/Sentient_S1/src/user_interface/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

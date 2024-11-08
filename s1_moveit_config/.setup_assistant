@@ -1,0 +1,25 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: robot_description
+    relative_path: urdf/sentients1.urdf.xacro
+  srdf:
+    relative_path: config/sentients1.srdf
+  package_settings:
+    author_name: nir
+    author_email: nir@sentient-robotics.io
+    generated_timestamp: 1731018768
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
